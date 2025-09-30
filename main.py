@@ -8,6 +8,8 @@ from gemini_utility import load_gemini_pro_model, retry_on_rate_limit
 working_directory = os.path.dirname(os.path.abspath(__file__))
 
 
+
+
 st.set_page_config(
     page_title="Gemini GenAI", 
     page_icon="🧠",
